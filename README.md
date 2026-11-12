@@ -13,6 +13,8 @@ I found this information in “Table 81. ADC characteristics” under Section �
 
 (2) We need a voltage divider circuit so that the photoresistor’s changing resistance produces a changing voltage that the ADC can then measure. If the photoresistor is directly connected to the board (between the supply and the ADC input without the fixed resistor), the input would remain near the supply voltage the whole time rather than changing with light intensity!
 
+(3) Link to video demonstrating ADC changes: https://drive.google.com/file/d/182xTJdUZlmXmEki7EWtkNlWn0s0vcFpn/view?usp=sharing
+
 **Written Deliverables for Part 3 - DAC:**
 
 (1)
