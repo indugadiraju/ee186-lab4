@@ -7,6 +7,7 @@
 - For 8 bits: 7.27 Msps for fast channels, 5.33 Msps for slow channels
 - For 10 bits: 6.15 Msps for fast channels, 4.71 Msps for slow channels
 - For 12 bits: 5.33 Msps for fast channels, 4.21 Msps for slow channels
+
 I found this information in “Table 81. ADC characteristics” under Section “6.3.21 Analog-to-digital converter characteristics” in the datasheet.
 
 
