@@ -17,6 +17,10 @@ I found this information in “Table 81. ADC characteristics” under Section �
 
 **Written Deliverables for Part 3 - DAC:**
 
-(1)
+(1) If B = 9, then Vout = (9 / (2^12)) = (9 / 4096) Vref, using the best resolution of 12-bits available on the MCU.
 
-(2)
+(2) The sampling rate of the DAC affects the quality of the waveform by determining how often the output voltage is updated. At a fixed waveform frequency, a higher sampling rate allows more samples per cycle, which produces a finer approximation/rendering of the intended waveform. Having too few samples would produce a coarser output and potentially distortion. With a fixed-length table, changing the sampling rate also changes the pitch because outputting samples faster makes the waveform repeat more times per second, increasing its frequency. Regarding the differences in sound perception between sine, square, and sawtooth waves:
+- a sine wave sounds “smooth” because its voltage rises and falls gradually, producing a pure, steady tone
+- a square wave sounds “hollow”/buzzy because its voltage switches abruptly between two levels, producing a sharper sound than a sine wave
+- a sawtooth wave sounds “brighter”/buzzier because its voltage steadily rises and then abruptly drops, repeating this pattern to produce a sharp, raspy tone.
+We need a capacitor in the signal path when sending an audio signal to a speaker or earphones because it blocks the DAC’s constant voltage offset while passing the changing audio signal. The constant offset could cause steady current through the speaker or earphones, wasting energy as heat without producing useful sound. The capacitor blocks this steady current while allowing the changing signal that produces sound to pass through.
