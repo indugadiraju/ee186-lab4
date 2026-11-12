@@ -23,4 +23,5 @@ I found this information in “Table 81. ADC characteristics” under Section �
 - a sine wave sounds “smooth” because its voltage rises and falls gradually, producing a pure, steady tone
 - a square wave sounds “hollow”/buzzy because its voltage switches abruptly between two levels, producing a sharper sound than a sine wave
 - a sawtooth wave sounds “brighter”/buzzier because its voltage steadily rises and then abruptly drops, repeating this pattern to produce a sharp, raspy tone.
+
 We need a capacitor in the signal path when sending an audio signal to a speaker or earphones because it blocks the DAC’s constant voltage offset while passing the changing audio signal. The constant offset could cause steady current through the speaker or earphones, wasting energy as heat without producing useful sound. The capacitor blocks this steady current while allowing the changing signal that produces sound to pass through.
