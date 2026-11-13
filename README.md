@@ -29,3 +29,6 @@ We need a capacitor in the signal path when sending an audio signal to a speaker
 **Written Deliverables for Part 4 - Theremin:**
 
 (1) Link to video demonstrating theremin working: https://drive.google.com/file/d/1e_rM8w7iBb32ELAN_YLySw6pDMQJilaZ/view?usp=sharing
+
+(2) Extra Credit: Link to video of me playing hot cross buns: https://drive.google.com/file/d/16M2lVuQRYD4jMt_jXAlkgkcsdsN84-3o/view?usp=sharing
+(Code for this is in the part 4 folder!)
