@@ -25,3 +25,7 @@ I found this information in “Table 81. ADC characteristics” under Section �
 - A sawtooth wave sounds “brighter”/buzzier because its voltage steadily rises and then abruptly drops, repeating this pattern to produce a sharper, raspier tone.
 
 We need a capacitor in the signal path when sending an audio signal to a speaker or earphones because it blocks the DAC’s constant voltage offset while passing the changing audio signal. The constant offset could cause steady current through the speaker or earphones, wasting energy as heat without producing useful sound. The capacitor blocks this steady current while allowing the changing signal that produces sound to pass through.
+
+**Written Deliverables for Part 4 - Theremin:**
+
+(1) Link to video demonstrating theremin working: https://drive.google.com/file/d/1e_rM8w7iBb32ELAN_YLySw6pDMQJilaZ/view?usp=sharing
